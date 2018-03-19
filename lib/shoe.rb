@@ -1,6 +1,6 @@
 class Shoe
 
-  BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"].uniq
+  BRANDS = []
   attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
