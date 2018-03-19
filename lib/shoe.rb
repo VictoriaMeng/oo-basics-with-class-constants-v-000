@@ -1,7 +1,7 @@
 class Shoe
 
   BRANDS = ["Uggs", "Rainbow", "Nike", "Nike"]
-  attr_accessor :color, :size, :material, :condition, :brand
+  attr_accessor :color, :size, :material, :condition
   attr_reader :brand
 
   def initialize(brand)
